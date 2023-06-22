@@ -37,4 +37,4 @@ Feed for screenwriting discussion. Include the word "scriptsky" in your posts to
 
 > This must link to an image (PNG or JPEG) in the same directory as this CONFIG.md. It doesn't have to be called `avatar2.png`, but just be sure this CONFIG.md points to the correct file.
 
-![](avatar2.png)
+![](avatar2.jpg)
