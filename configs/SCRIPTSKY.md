@@ -3,25 +3,25 @@
 
 > This is the feed's ID which can be letters, numbers, or dashes. Spaces are not allowed. Maximum length is 15 characters.
 
-bluesky-app
+scriptsky
 
 # isEnabled
 
 > Whether this feed should be published by the "Publish Feed Generators" step. Set to `true` or `false`.
 
-false
+true
 
 # displayName
 
 > This is the title of the custom feed. Maximum length is 24 characters.
 
-Bluesky App
+Scriptsky
 
 # description
 
 > This is the description of the feed.
 
-Updates about the app
+Feed for screenwriting discussion. Include the word "scriptsky" in your posts to have them included here.
 
 # searchTerms
 
@@ -31,8 +31,7 @@ Updates about the app
 > - Users: links such as `https://bsky.app/profile/why.bsky.team` will pull in the user's posts (but not replies or reposts).
 > - Pinned posts: links such as `https://bsky.app/profile/saddymayo.bsky.social/post/3jxju2wwap22e` will pin at the top of the feed. One link per line, please.
 
-- https://bsky.app/profile/bsky.app
-- https://bsky.app/profile/atproto.com
+- scriptsky
 
 # avatar
 
