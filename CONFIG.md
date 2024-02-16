@@ -21,11 +21,26 @@ Feed for film discussion. Includes all posts with the word "filmsky".
 
 > There are three types of search terms:
 >
-> - Keywords (maximum 5 terms): Test these in [https://bsky.app/search](https://bsky.app/search). `AND` is implicit, so `cat dog` on one line will require both `cat` and `dog`. You can use quotes as well `"hot dog"`.
-> - Users: links such as `https://bsky.app/profile/why.bsky.team` will pull in the user's posts (but not replies or reposts).
+> - Keywords: Test these in [https://bsky.app/search](https://bsky.app/search). `AND` is implicit, so `cat dog` on one line will require both `cat` and `dog`. You can use quotes as well `"hot dog"`.
+> - Users: links such as `https://bsky.app/profile/why.bsky.team` will pull in the user's posts. To include replies and reposts, you can add the following flags: `https://bsky.app/profile/why.bsky.team +replies +reposts`.
 > - Pinned posts: links such as `https://bsky.app/profile/saddymayo.bsky.social/post/3jxju2wwap22e` will pin at the top of the feed. One link per line, please.
 
 - filmsky
+
+# denyList
+
+> Deny list will exclude any results from a given user. You can provide the username or DID.
+>
+> - did:plc:1234
+> - @spamspamspam.bsky.social
+
+# safeMode
+
+> Safe mode limits the total number of API calls coming from Cloudflare.
+>
+> Set to `false` if you have higher limits via a paid Cloudflare plan.
+
+true
 
 # avatar
 
